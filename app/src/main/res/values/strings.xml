@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MP3 Player</string>
+    <string name="toast_error_general">Failed to play the mp3: __MP3URL__</string>
+    <string name="toast_error_no_internet">No Internet connectivity. Please check your connection.</string>
+    <string name="notification_text">Playing... __MP3URL__</string>
+    <string name="mp3_instructions">Enter the URL of a MP3 you\'d like to add below</string>
+    <string name="add_button">Add</string>
+    <string name="mp3_url">MP3 URL:</string>
+    <string name="mp3_hint">http://media.libsyn.com/media/cni/CNI3.mp3</string>
+    <string name="track_name">Track Name:</string>
+    <string name="track_hint">CNI3</string>
+    <string name="tracks_title">Tracks:</string>
+</resources>

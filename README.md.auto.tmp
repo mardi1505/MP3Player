@@ -7,6 +7,6 @@ Android Java code that demonstrates the following:
 > - Uses Regular Expressions to validate the MP3 URL entered by the user and extracts the file name from the URL
 > - Allows users to play and pause by toggling the selection a ListView item or using the media control ImageButtons
 > - Users a Foreground Service to play the MP3 URLs and automatically plays the next track in the database
-> - AsyncTask is used to prepare the MP3 and detects errors caused by either i) No Internet Connectivity, ii) Invalid URL or iii) Invalid MP3 file and displays a Toast while the MP3PlayerActivity is in the foreground
+> - AsyncTask is used to prepare the MP3 and detects errors caused by either i) No Internet Connectivity, ii) Invalid URL (e.g. http://www.bogus.com/bogus.mp3) or iii) Invalid MP3 file (e.g. https://www.dropbox.com/s/cdrm6w36ediprw6/bad.mp3) and displays a Toast while the MP3PlayerActivity is in the foreground
 > - Intents are used to communicate requests and notifications between the Activity and Service
 > - SharedPreferences are used to persist states
